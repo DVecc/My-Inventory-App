@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white"
+    android:backgroundTint="#00FFFFFF">
+
+    <TextView
+        android:id="@+id/recyclerItemNameTextView"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/add_item_hint"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/increaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:adjustViewBounds="false"
+        android:backgroundTint="@color/design_default_color_background"
+        android:contentDescription="@string/increase_QTY"
+        android:minWidth="48dp"
+        android:src="@drawable/ic_baseline_arrow_upward_24"
+        android:tint="@android:color/holo_green_dark"
+        android:visibility="visible"
+        app:drawableTint="@android:color/holo_green_dark"
+        app:tint="@android:color/holo_green_dark"
+        tools:ignore="UseAppTint" />
+
+    <TextView
+        android:id="@+id/quantityTextView"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/item_qty_header"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/decreaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:backgroundTint="@color/design_default_color_background"
+        android:contentDescription="@string/decrease_qty"
+        android:minWidth="48dp"
+        android:src="@drawable/ic_baseline_arrow_downward_24"
+        android:tint="@color/design_default_color_error"
+        android:visibility="visible"
+        app:tint="@color/design_default_color_error"
+        tools:ignore="UseAppTint" />
+
+    <ImageButton
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight=".75"
+        android:backgroundTint="@color/design_default_color_background"
+        android:contentDescription="@string/edit"
+        android:minWidth="48dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:tint="@android:color/holo_green_dark"
+        android:visibility="visible"
+        tools:ignore="UseAppTint"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight=".75"
+        android:backgroundTint="@color/design_default_color_background"
+        android:contentDescription="@string/delete"
+        android:minWidth="48dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:tint="@color/design_default_color_error"
+        android:visibility="visible"
+        tools:ignore="UseAppTint" />
+</LinearLayout>
+

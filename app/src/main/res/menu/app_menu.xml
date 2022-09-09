@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/smsSettings"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:iconTint="@color/design_default_color_on_primary"
+        android:title="@string/sms_notifcation_menu"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:iconTint="@color/design_default_color_on_primary"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/exit_app"
+        android:iconTint="@color/design_default_color_on_primary"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom" />
+</menu>

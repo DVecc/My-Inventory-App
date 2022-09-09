@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Vincent Del Vecchio_Final_Project</string>
+    <string name="application_name">My Inventory</string>
+    <string name="login_username">Username:</string>
+    <string name="login_password">Password:</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="logo_content_description">My Inventory App Logo</string>
+    <string name="register_button">Register</string>
+    <string name="login_button">Login</string>
+    <string name="title_activity_inventory">Inventory</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="fab_description">Add Item</string>
+    <string name="item_name_header">Item</string>
+    <string name="item_sku_header">SKU</string>
+    <string name="item_qty_header">QTY</string>
+    <string name="sms_notifcation_menu">SMS Notifcation Prompt</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="decrease_qty">"Decrease Quantity "</string>
+    <string name="increase_QTY">Increase Quantity</string>
+    <string name="item_addition">Add Item</string>
+    <string name="add_item_hint">Item Name</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="ok">Okay</string>
+    <string name="permission_needed">Send SMS</string>
+    <string name="rationalMessage">This app requires permissions to Send SMS messages when an inventory items quantitiy is depleted.</string>
+    <string name="phoneNumber">\"Notification Phone Number\"</string>
+    <string name="inventoryNotificaiton">Low Inventory Notification: Inventory Item %1$s has 0 QTY</string>
+    <string name="failedSMS">Failed to Send Low Inventory SMS</string>
+</resources>
